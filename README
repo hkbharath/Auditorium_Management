@@ -1,5 +1,37 @@
-_____________________
-_____________________
-AUDITORIUM MANAGEMENT
-_____________________
-_____________________
+-----------------------
+ AUDITORIUM MANAGEMENT
+-----------------------
+
+Developed By : Bharathkumar S Hegde, CSE Dept, UVCE
+Designed By :  Designed by 'http://chocotemplates.com/'
+
+ABOUT
+
+A web based application for managing systems like ' Auditorium ', Example Stadium,Theater ETC
+
+
+PREREQUIREMENTS
+- Any server similar to Apache2.
+- MySql Server
+- Server must execute the PHP Script.
+- PHP-MySql libraries
+- PHPmyadmin (Optional)
+
+INSTALLING
+- Extract the .zip file to root folder of your server
+  (example : if you have installed 'xampp' in windows, root folder of the server may exist in c:\xampp\htdocs.
+   if you have installed 'lamp' package in ubuntu, root folder of the server may be in /var/www/)
+- Set your server_name, mysql_username, mysql_password in settings.php (by default it will be "localhost","root","" respectively).
+- Run dbinit.sql in MySql server 
+  ( In terminal windows/linux 
+   - Connect to MySql server 
+   - type ' SOURCE server_root_folder/theater.in/dbinit.sql ', replace server_root_folder with a path to root folder of your server.
+    
+    In phpmyadmin
+   - click on 'Import' in the home page of phpmyadmin.
+   - Select dbinit.sql from project folder.
+   - Click  GO.
+  )
+- Now open 'localhost/theater.in/' in your browser.
+
+USAGE
